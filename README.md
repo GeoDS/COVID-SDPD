@@ -28,17 +28,17 @@ University of Wisconsin-Madison
 ## Reference
 If you use this dataset and code in your research or applications, please refer to this source:
 
-Hou, X., Gao, S., Li, Q., Kang, Y., Chen, N., Chen, K., Rao, J., Ellenberg, J.S. and Patz, J.A. (2021). [Intracounty modeling of COVID-19 infection with human mobility: assessing spatial heterogeneity with business traffic, age and race.](https://www.pnas.org/content/118/24/e2020524118) Proceedings of the National Academy of Sciences, Jun 2021, 118 (24), e2020524118, DOI: 10.1073/pnas.2020524118
+Han, X., Xu, Y., Fan, L., Huang, Y., Xu, M., and Gao, S. (2021). [Quantifying COVID-19 importation risk in a dynamic network of domestic cities and international countries.](https://doi.org/10.1073/pnas.2100201118) Proceedings of the National Academy of Sciences, Jun 2021, 118 (26), e2100201118, DOI: 10.1073/pnas.2100201118
 
 ```
 @article{hou2020intra,
-  title={Intra-county modeling of COVID-19 infection with human mobility: assessing spatial heterogeneity with business traffic, age and race},
-  author={Hou, Xiao and Gao, Song and Li, Qin and Kang, Yuhao and Chen, Nan and Chen, Kaiping and Rao, Jinmeng and Ellenberg, Jordan S and Patz, Jonathan A},
+  title={Quantifying COVID-19 importation risk in a dynamic network of domestic cities and international countries},
+  author={Han, Xiaoyi and Xu, Yilan and Fan, Linlin and Huang, Yi and Xu, Minhong and Gao, Song},
   journal={Proceedings of the National Academy of Sciences},
   year={2021},
   volume={118},
-  number={24},
-  pages={e2020524118},
+  number={26},
+  pages={e2100201118},
   publisher={National Academy of Sciences}
 }
 ```
@@ -72,15 +72,11 @@ case1.m, case2.m, case3.m: Three scenario studies of Dane County.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
-Xiaoyi Han - 
-Yilan Xu - 
+Xiaoyi Han - [Personal Website](https://hanxiaoyi.weebly.com/) - han.293 at buckeyemail.osu.edu </br>
+Yilan Xu - [Personal Website](https://sites.google.com/site/xuyilan/) - yilanxu at llinois.edu </br>
 Song Gao - [@gissong](https://twitter.com/gissong) - song.gao at wisc.edu  </br>
-
-Project Link: [https://github.com/GeoDS/IntraCounty-Mobility-SEIR](https://github.com/GeoDS/IntraCounty-Mobility-SEIR)  
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
