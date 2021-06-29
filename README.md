@@ -3,14 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-<a href="https://geods.geography.wisc.edu/">
-    <img src="https://github.com/GeoDS/COVID19USFlows/raw/master/images/geods_safegraph_nsf_logo.jpg" alt="Logo" width="400">
 
   <h2 align="center">Quantifying COVID-19 importation risk in a dynamic network of domestic cities and international countries</h2>
 
   <p align="center">
-Department of Mathematics, Department of Geography, Department of Life Sciences Communication, and School of Medicine and Public Health, 
-University of Wisconsin-Madison
+Xiamen University; University of Illinois at Urbana Champaign; Pennsylvania State University; Nanjing Audit University; University of Wisconsin--Madison
   </p>
 </p>
 
