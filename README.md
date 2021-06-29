@@ -7,7 +7,7 @@
   <h2 align="center">Quantifying COVID-19 importation risk in a dynamic network of domestic cities and international countries</h2>
 
   <p align="center">
-Xiamen University; University of Illinois at Urbana Champaign; Pennsylvania State University; Nanjing Audit University; University of Wisconsin--Madison
+Xiamen University; University of Illinois at Urbana Champaign; Pennsylvania State University; Nanjing Audit University; University of Wisconsin-Madison
   </p>
 </p>
 
