@@ -49,7 +49,7 @@ Our simulations suggest that importation risk is limited when domestic transmiss
 ## File Descriptions  
 Written by: Han, Xiaoyi (han.293@buckeyemail.osu.edu.)
 
-This Matlab program is to produce the counterfactual results in Figures 3 to 5 
+This Matlab program is to produce the counterfactual results in Figures 3 to 5. 
 
 Notes:
 In this simulation code, we estimate the SDPD model with change points and simulated the counterfactual national cumulative cases, 
