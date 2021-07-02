@@ -47,21 +47,35 @@ Since its outbreak in December 2019, the novel coronavirus 2019 (COVID-19) has s
 Our simulations suggest that importation risk is limited when domestic transmission is under control, but that cumulative cases would have been almost 13 times higher if domestic transmissibility had resurged to its pre-containment level after importation, and 32 times higher if domestic transmissibility had remained at its pre-containment level since the outbreak. Our findings provide practical insights into infectious disease containment and call for collaborative and coordinated global suppression efforts. 
 
 ## File Descriptions  
-A description of all files in the repository is shown below:  
-data_0411_0814.mat: The daily COVID-19 confirmed cases data needed to run the model for Dane County, WI, provided by the [Wisconsin Department of Health Services](https://data.dhsgis.wi.gov/datasets/covid-19-historical-data-by-census-tract/data?orderBy=GEOID). (The codes of cleaning the data are provided in the folder ‘data_preparation’)
+Written by: Han, Xiaoyi (han.293@buckeyemail.osu.edu.)
 
-data_0311_0812.mat: The daily COVID-19 confirmed cases data needed to run the model for Milwaukee County, WI, provided by the [Wisconsin Department of Health Services](https://data.dhsgis.wi.gov/datasets/covid-19-historical-data-by-census-tract/data?orderBy=GEOID). (The codes of cleaning the data are provided in the folder ‘data_preparation’)
+This Matlab program is to produce the counterfactual results in Figures 3 to 5 
 
-para_stochastic.m: A fixed-point iteration is used to determine the coefficients of the stochastic (Ornstein–Uhlenbeck) process.
+Notes:
+In this simulation code, we estimate the SDPD model with change points and simulated the counterfactual national cumulative cases, 
+based upon the MCMC draws of parameter estimates. 
 
-fun_EKI_stochastic.m: Apply the Ensemble Kalman Filter.
+To implement the Bayesian 95% confidence interval, we include a function 'hpdi' provided by James P. LeSage in the file named 'jplv7', 
+which can be downloaded  from [http://www.spatial-econometrics.com/](http://www.spatial-econometrics.com/)
 
-SEIR_stochastic: Run the model forward
+We also include the data, as well as the time-varying spatial weights matrices used in the empirical study.
 
-plots.m: Plot figures about the results of model.
+city_data_9_12_v14:        The excel file for data used in the empirical study
+spatial_weights_9_29:     The M file for contemporaneous spatial weights matrix from population flows
+spatial_weights_lag_9_29:  The M file for lagged spatial weights matrix from population flows
 
-case1.m, case2.m, case3.m: Three scenario studies of Dane County.
+Main_empirical_figure3:  The code to generate figure 3. It reads the data and spatial weights, and implements mcmcbfnsbr1c3, which is a function to conduct MCMC estimation
+for the SDPD model with change points and conduct counterfactual simulations for figure 3
 
+
+Main_empirical_figure4:  The code to generate figure 4. It reads the data and spatial weights, and implements mcmcbfnsbr1c4, which is a function to conduct MCMC estimation
+for the SDPD model with change points and conduct counterfactual simulations for figure 4
+
+
+Main_empirical_figure5:  The code to generate figure 5. It reads the data and spatial weights, and implements mcmcbfnsbr1c5, which is a function to conduct MCMC estimation
+for the SDPD model with change points and conduct counterfactual simulations for figure 5
+
+jplv7: file for functions used in the econometric toolbox for matlab, which includes the function to generate Bayesian 95% confidence interval (written by James P. LeSage)
 
 <!-- LICENSE -->
 ## License
